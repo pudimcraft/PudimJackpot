@@ -31,6 +31,7 @@ public class Jackpot extends JavaPlugin {
 		}
 		return (TokenEnchant) plugin;
 	}
+	//ashdasuhdsuahdasuhdas
 	public double getValorEmTokens(ItemStack i) {
 		short durabilidade = (short) (i.getType().getMaxDurability() - 1);
 		i.setDurability(durabilidade);
